@@ -1263,12 +1263,25 @@ License: Teamforest licence
 		color: #525252;
 		cursor:pointer;
 	}
-
+	
+	.button.custom{
+	    padding: 5px;
+		font-size: 12px;
+		background: grey;
+		border: 1px solid grey;
+		color: white;
+	}
+	
+	.button.custom:hover{
+		background: grey;
+	}
+	
 	.button:hover{
 		background: #d84949;
 		color: #fff;
 		border-color: #b83e3e;
 	}
+	
 
 	.button.big{
 		padding: 20px;
